@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShubhMangal - Indian Wedding Guest & RSVP Manager</title>
+    <meta name="description" content="Comprehensive Indian wedding guest management platform with live catering headcounts, hotel room allocation, and AI-powered WhatsApp RSVP message parsing." />
+    <meta property="og:title" content="ShubhMangal - Indian Wedding Guest & RSVP Manager" />
+    <meta property="og:description" content="Comprehensive Indian wedding guest management platform with live catering headcounts, hotel room allocation, and AI-powered WhatsApp RSVP message parsing." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var _origFetch = typeof window !== 'undefined' && window.fetch ? window.fetch.bind(window) : null;
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            get: function() {
+              return _origFetch;
+            },
+            set: function(val) {
+              _origFetch = val;
+            }
+          });
+        } catch (err) {
+          // Suppress if already defined or restricted
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
